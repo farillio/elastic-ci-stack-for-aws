@@ -64,6 +64,14 @@
     },
     {
       "type": "shell",
+      "script": "scripts/install-ruby.sh"
+    },
+    {
+      "type": "shell",
+      "script": "scripts/install-misc-farillio.sh"
+    },
+    {
+      "type": "shell",
       "inline": [
         "rm /home/ec2-user/.ssh/authorized_keys"
       ]
